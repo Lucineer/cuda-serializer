@@ -1,0 +1,8 @@
+[package]
+name = "cuda-serializer"
+version = "0.1.0"
+edition = "2021"
+description = "Serialization — binary protocol buffers, JSON, CBOR-like encoding, schema evolution, and message framing for agent communication"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
