@@ -2,7 +2,7 @@
 name = "cuda-serializer"
 version = "0.1.0"
 edition = "2021"
-description = "Binary encoding, varint, message framing, schema evolution"
+description = "Binary encoding with message framing"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/Lucineer/cuda-serializer"
 readme = "README.md"
@@ -11,3 +11,4 @@ categories = ["science"]
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }
+
